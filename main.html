@@ -7,9 +7,68 @@
 </head>
 
 <body>
+		<form method="post">
+			<label for="name"> Name  : </label>
+		    <input type="text" name = "name" required >
+		    <br>
+		
+			<label for="email"> Email :</label>
+		    <input type="email" name = "email" required >
+		    <br>
+			<label for=""gender""> Gender  : Male  <input type="radio" name="gender" id="Male" required> Female <input type="radio" name="gender" id="Female" required></label>
+		    <br>
+		    <label for=""Car_Brands"">
+		    Card Brands  : 
+			</label>
+            <select name="car_brand" required>
+            <option value="Visa">BMW</option>
+            <option value="Rupees">Audi</option>
+            <option value="Mastercard">Mercedez</option>
+            </select>
+		    <br>
+		
+			<label for=""car_age""> Car Age  : </label>
+			<input type="number" name = "name" required >
+		    <br>
+	
+			<label for=""Date_of_Purchase""> Date of Purchase  :</label>
+			<input type="date" name = "Date_of_Purchase" required >
+		    <br>
+		    <label for=""Password"">Password  : </label>
+			<input type="password" name="cvv" id="cvv" required>
+		    <br>
+		    <label for=""name"">
+            <input type="submit" value="submit">
+		    </label>   
+	</form>
+
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<!--<form  method="post">
+  <label for="name" >Username</label>
+  <input type="text" id="name" required/>
+  
+   <label for="email" >Email</label>
+  <input type="email" id="email" required/>
+	
+	 <label for="password" >password</label>
+  <input type="password" id="password" required/>
+
+	 <label for="cars" >cars</label>
+  <input type="text" id="cars"  required/>
+	
+	 <label for="carage" >car age</label>
+  <input type="text" id="carage" name="carage" required/>
+
+	<label for="dop" >dop</label>
+  <input type="text" id="dop" name="dop" required/>
+		 <label for="gender" id="gender" >Gender</label>
+  <input type="radio" name="gender" value="male"> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other
+  <button type="submit" id="submit">Submit</button>
+</form>-->
 
 </body>
 
